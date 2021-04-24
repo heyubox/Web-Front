@@ -1,0 +1,788 @@
+.carousel-inner .carousel-caption #moreSights {
+    font-family: sans-serif;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    color: white;
+    border-radius: 3px;
+    font-size: 16px;
+    transition: all 0.2s ease 0s;
+    padding: 8px 16px;
+    text-align: center;
+    display: inline-block;
+    margin: 20px;
+}
+
+.carousel-caption.prehide {
+    top: -400px;
+}
+
+.carousel-inner .carousel-caption #moreSights:hover {
+    padding: 10px 18px;
+    background-color: #337ab7;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+div.main-content {
+    position: relative;
+    background-color: white;
+    width: 1400px;
+    height: auto;
+    border: 5px solid #ffffff;
+    box-shadow: 0px 0px 10px #aaaaaa;
+    margin-left: 50%;
+    left: -700px;
+}
+
+hr {
+    border-width: 1px !important;
+    margin-block-start: 1em !important;
+    margin-inline-end: 1em !important;
+    border-top: 1px solid rgb(151, 151, 151) !important;
+}
+
+h1.big-title {
+    border-left: 12px solid #4F9CEE;
+
+}
+
+div.main-content p {
+    padding: 0 20px 0;
+    text-indent: 2em;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.right-insert-img {
+    position: relative;
+    float: right;
+    width: 310px;
+    height: auto;
+    text-align: center;
+    border: 3px solid #ffffff;
+    box-shadow: 0px 0px 5px #aaaaaa;
+}
+
+.right-insert-img img {
+    position: relative;
+    width: 300px;
+    height: auto;
+}
+
+#basic {
+    position: relative;
+    border: 2px solid #eee;
+    width: 1000px;
+    margin-left: 50%;
+    left: -500px;
+
+}
+
+.left-insert-img {
+    position: relative;
+    float: left;
+    width: 310px;
+    height: auto;
+    text-align: center;
+    border: 3px solid #ffffff;
+    box-shadow: 0px 0px 5px #aaaaaa;
+}
+
+.left-insert-img img {
+    position: relative;
+    width: 300px;
+    height: auto;
+}
+
+.img-container a {
+    text-decoration: none;
+}
+
+.img-container {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    margin: 10px auto 0 auto;
+    box-shadow: 0 0 5px #eee;
+    overflow: hidden;
+}
+
+.img-container .wrap {
+    position: absolute;
+    width: 4200px;
+    height: 400px;
+    z-index: 1;
+}
+
+.img-container .wrap img {
+    float: left;
+    width: 600px;
+    height: 400px;
+}
+
+.img-container .buttons {
+    position: absolute;
+    right: 5px;
+    bottom: 40px;
+    width: 150px;
+    height: 10px;
+    z-index: 2;
+}
+
+.img-container .buttons span {
+    margin-left: 5px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #eee;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+.img-container .buttons span.on {
+    background-color: red;
+}
+
+.img-container .arrow {
+    position: absolute;
+    top: 35%;
+    color: white;
+    padding: 0px 14px;
+    border-radius: 50%;
+    font-size: 50px;
+    z-index: 2;
+    display: none;
+}
+
+.img-container .arrow_left {
+    left: 10px;
+}
+
+.img-container .arrow_right {
+    right: 10px;
+}
+
+.img-container:hover .arrow {
+    display: block;
+}
+
+.img-container .arrow:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.box-shadow {
+    background-color: white;
+    padding: 15px 10px 25px 10px;
+    border: 5px solid #ffffff;
+    box-shadow: 0px 0px 10px #aaaaaa;
+    width: 700px;
+    margin-left: 50%;
+    left: -350px;
+    position: relative;
+    top: 50px;
+}
+
+.box-shadow p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+}
+
+.box-shadow h1 {
+    text-align: center;
+}
+
+a:hover,
+a:hover {
+    text-decoration: none !important;
+}
+
+#products .jumbotron {
+    background-image: url("../img/product-welcome.jpg");
+    background-size: 100% 100%;
+    margin-top: 50px;
+}
+
+.jumbotron .container {
+    background-color: rgba(238, 238, 238, 0.616);
+    border-radius: 5px;
+}
+
+p {
+    text-indent: 2em;
+}
+
+span.like-count {
+    text-emphasis: 0.5em;
+}
+
+div.main-content2 {
+    position: relative;
+    background-color: white;
+    margin: 30px;
+    width: 1400px;
+    margin-left: 50%;
+    left: -700px;
+    border: 5px solid #ffffff;
+    box-shadow: 0px 0px 10px #aaaaaa;
+    top: 80px;
+}
+
+.box.thumbnail {
+    border-radius: 0px;
+    padding: 10px;
+    margin-top: 20px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.box.thumbnail h1 {
+    text-align: center;
+    font-weight: bolder;
+}
+
+a.box.thumbnail p {
+    text-decoration: none;
+    color: rgb(146, 145, 145);
+    font-size: 18px;
+}
+
+#head-background {
+    position: absolute;
+    background-image: url(../img/picture-welcome.jpg);
+    width: 100%;
+    height: 700px;
+    z-index: -1;
+    background-repeat: no-repeat;
+
+    background-size: 100%;
+}
+
+.caption.intro {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.514);
+    position: absolute;
+}
+
+#head-background2 {
+    position: absolute;
+    background-image: url(../img/culture-welcome.jpg);
+    width: 100%;
+    height: 700px;
+    z-index: -1;
+    background-repeat: no-repeat;
+
+    background-size: 100%;
+}
+
+div.main-content3 {
+    position: relative;
+    background-color: white;
+    margin: 30px;
+    width: 1400px;
+    margin-left: 50%;
+    left: -700px;
+    border: 5px solid #ffffff;
+    box-shadow: 0px 0px 10px #aaaaaa;
+    top: 250px;
+}
+
+.main-content3 ul li a {
+    font-size: x-large;
+    font-weight: 500;
+}
+
+.tab-pane h1,
+.tab-pane h3 {
+    text-align: center;
+}
+
+.tab-pane p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 23px;
+}
+
+.right-insert-img h3,
+.left-insert-img h3 {
+    font: 2em sans-serif;
+    font-weight: 1000;
+
+}
+
+.right-insert-img h3:hover,
+.left-insert-img h3:hover {
+    color: #4F9CEE;
+}
+
+#customs {
+    background-image: url(../img/waves.jpg);
+}
+
+#customs #header {
+    background-color: rgba(255, 255, 255, 0.93);
+    position: relative;
+    left: 50%;
+    width: 600px;
+    margin-left: -290px;
+    border-radius: 5px;
+    top: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+img.movieItems {
+    position: relative;
+    width: 300px;
+    height: 320px;
+    left: 12px;
+}
+
+div#movieLikes {
+    top: 60px;
+    position: relative;
+    padding-top: 30px;
+    left: 50%;
+    margin-left: -720px;
+    width: 1500px;
+}
+
+.but {
+    text-align: center;
+}
+
+#customs ol {
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#movieLikes .movieIntro {
+
+    float: left;
+    ;
+    width: 350px;
+    padding: 10px;
+    height: 850px;
+    margin: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+}
+
+button {
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #e7e7e7;
+}
+
+.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+button span:after {
+
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+button:hover span {
+    padding-right: 25px;
+}
+
+button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.movieIntro {
+    background-color: rgba(255, 255, 255, 0.93);
+    border-radius: 8px;
+}
+
+#customs h1,
+#customs h3 {
+    text-align: center;
+}
+
+#head-background3 {
+
+    background-color: black;
+    width: 100%;
+    height: 700px;
+
+}
+
+.video {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.705);
+    width: 100%;
+    height: auto;
+    border: 5px solid black;
+    box-shadow: 0px 0px 10px #aaaaaa;
+
+    text-align: center;
+}
+
+.video h1 {
+    text-align: center;
+    color: white;
+    font-family: SimHei;
+}
+
+h1 {
+    font-family: SimHei;
+}
+
+body#economic p {
+    font-family: STKaiti;
+    font-size: large;
+}
+
+blockquote p::before {
+    content: '\201C';
+}
+
+blockquote p::after {
+    content: '\201D';
+}
+
+.float-left-img {
+    float: left;
+    width: 300px;
+    height: 400px;
+
+}
+
+.left-img-text {
+    position: relative;
+    height: 400px;
+
+}
+
+.row-imgandtext {
+    position: relative;
+    width: 1300px;
+    height: 500px;
+    padding: 50px;
+    margin-left: 50%;
+    left: -650px;
+}
+
+.float-right-img {
+    float: right;
+    width: 300px;
+    height: 400px;
+
+}
+
+ul#overturn * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+ul#overturn img {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+ul#overturn {
+    background-color: white;
+    margin: 100px auto 0;
+    width: 1400px;
+    left: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+ul#overturn li {
+    width: 400px;
+    height: 250px;
+    position: relative;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 30px;
+
+}
+
+ul#overturn li .cl {
+    width: 400px;
+    height: 250px;
+    transition: all ease .65s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+ul#overturn li .cl img {
+    height: 215px;
+    width: 400px;
+}
+
+ul#overturn li a {
+    width: 350px;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    background: rgb(242, 242, 242);
+    color: #333;
+    transition: all 0.65s ease;
+}
+
+ul#overturn li a h2 {
+    padding: 30px 0;
+    text-align: center;
+}
+
+ul#overturn li a p {
+    font-size: 14px;
+    width: 100%;
+    padding: 10px 20px 30px;
+    box-sizing: border-box;
+}
+
+ul#overturn li:hover .cl {
+    visibility: visible;
+    opacity: 1;
+    transform: rotateY(360deg)
+}
+
+ul#overturn li:hover a {
+    background: rgba(63, 107, 219, 0.322);
+    color: #fff;
+    transform: translate(25px, 25px);
+}
+
+.row-imgandtext h1 {
+    font-family: SimHei;
+}
+
+.row-imgandtext p {
+    text-indent: 0em;
+    font-size: 2em;
+    font-family: KaiTi;
+    text-align: center;
+}
+
+.left-opacity {
+    background-color: black;
+    text-align: center;
+
+}
+
+.left-opacity h1 {
+    font-size: 5em;
+    color: white;
+}
+.left-opacity h2 {
+    font-size: 3em;
+    color: white;
+}
+
+.left-title {
+    vertical-align: middle;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.left-opacity img {
+    opacity: 0.4;
+}
+
+.bcolor1 {
+    background-color: #F1FAFA;
+}
+
+.bcolor2 {
+    background-color: white;
+}
+
+.right-text div {
+    padding: 100px 200px 0 20px;
+    font-family: FangSong_GB2312;
+    font-size: 22px;
+}
+
+.bcwhite {
+    background-color: white;
+}
+
+.right-text.reverse div {
+    padding: 100px 20px 0 200px;
+    font-family: FangSong_GB2312;
+    font-size: 22px;
+}
+
+#index .end-foot {
+    text-align: center;
+}
+
+#index .end-foot p {
+    text-indent: 0;
+}
+
+#index .jumbotron {
+    background-image: url("../img/foot.jpg");
+    background-size: 100% 100%;
+    margin-top: 50px;
+}
+
+.center-title {
+    opacity: 0.9;
+    vertical-align: middle;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    color: white;
+    transform: translate(0, -50%);
+}
+
+.center-title h1 {
+    font-size: 4em;
+}
+
+.center-title h2 {
+    font-size: 3em;
+}
+
+.blankBlock {
+    height: 300px;
+}
+
+#edu .col-md-2 h3 {
+    text-align: center;
+}
+
+#edu .col-md-2 p {
+    text-align: KaiTi;
+    font-size: 18px;
+}
+
+.banner-text h1 {
+    text-align: center;
+}
+
+.banner-text p {
+    font-family: STKaiti;
+    font-size: x-large;
+}
+
+.banner-text-inner-block {
+    width: 60%;
+    margin: 50px auto 50px;
+}
+
+.swiper-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.swiper-container p {
+    text-indent: 0;
+    font-size: 40px;
+    font-family: STXingkai;
+    background-color: rgba(238, 238, 238, 0.616);
+
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+}
+
+#celebrity .jumbotron {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url(../img/history.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#celebrity .jumbotron h1 {
+    text-align: center;
+}
+blockquote{
+    font-family: STXingkai;
+    font-size: 22px;
+}
+
+.accordion {
+	border-radius:8px;
+	box-shadow:6px 6px 24px rgba(0,0,0,0.1);
+	cursor:pointer;
+    display:flex;	
+	align-items:center;
+	justify-content:center;
+    margin: 0;
+    padding: 0;
+}
+.accordion .box {
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	width:200px;
+	height:500px;
+	transition:all 0.3s;
+    color:white;
+    overflow: hidden;
+}
+.accordion .Hover {
+	width:450px;
+    transition:all 0.3s;
+    overflow: hidden;
+}
+.accordion img{
+    height: 500px;
+}
